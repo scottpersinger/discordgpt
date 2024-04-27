@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "discordgpt"
+version = "0.1.0"
+description = ""
+authors = ["Scott Persinger <scottpersinger@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+discord-py = "^2.3.2"
+openai = "^1.23.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
